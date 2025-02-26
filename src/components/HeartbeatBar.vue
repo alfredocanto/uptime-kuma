@@ -294,7 +294,7 @@ export default {
         }
 
         .beat {
-            background-color: $primary;
+            background-color: $ogprimary;
             border-radius: $border-radius;
 
             /*

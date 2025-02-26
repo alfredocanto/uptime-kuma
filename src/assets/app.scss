@@ -22,6 +22,11 @@ textarea.form-control {
     width: 10px;
 }
 
+.bg-primary {
+    color: $dark-font-color2;
+    background-color: $ogprimary !important;
+}
+
 .bg-maintenance {
     color: white !important;
     background-color: $maintenance !important;
@@ -51,7 +56,6 @@ textarea.form-control {
         }
     }
 }
-
 
 // optgroup
 optgroup {
@@ -310,10 +314,6 @@ optgroup {
     }
 
     .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-        color: $dark-font-color2;
-    }
-
-    .bg-primary {
         color: $dark-font-color2;
     }
 

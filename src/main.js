@@ -51,6 +51,8 @@ app.component("FontAwesomeIcon", FontAwesomeIcon);
 
 app.mount("#app");
 
+app.config.devtools = true;
+
 // Expose the vue instance for development
 if (process.env.NODE_ENV === "development") {
     console.log("Dev Only: window.app is the vue instance");

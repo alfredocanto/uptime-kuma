@@ -212,7 +212,7 @@ export default {
 
 .num {
     font-size: 30px;
-    color: $primary;
+    color: $ogprimary;
     font-weight: bold;
     display: block;
 }
